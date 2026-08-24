@@ -1,0 +1,7 @@
+__pycache__
+*.pyc
+.pytest_cache
+learnpath.db
+tests/test_api.db
+.env
+venv

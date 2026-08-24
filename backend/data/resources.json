@@ -1,0 +1,4129 @@
+{
+  "resources": [
+    {
+      "id": "res_0001",
+      "title": "Python: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of python.",
+      "resource_type": "course",
+      "category": "Programming",
+      "skills": [
+        "python"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 8.3,
+      "rating": 4.0,
+      "source": "Official Docs",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0002",
+      "title": "Python in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind python.",
+      "resource_type": "video",
+      "category": "Programming",
+      "skills": [
+        "python"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 1.7,
+      "rating": 4.5,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0003",
+      "title": "A Practical Guide to Python",
+      "description": "A written guide explaining python with worked examples.",
+      "resource_type": "article",
+      "category": "Programming",
+      "skills": [
+        "python"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 0.8,
+      "rating": 3.7,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0004",
+      "title": "Python Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of python.",
+      "resource_type": "quiz",
+      "category": "Programming",
+      "skills": [
+        "python"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 0.3,
+      "rating": 4.4,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0005",
+      "title": "Python Reference Documentation",
+      "description": "Official reference material for python APIs and usage patterns.",
+      "resource_type": "documentation",
+      "category": "Programming",
+      "skills": [
+        "python"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 3.1,
+      "rating": 4.5,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "documentation"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0006",
+      "title": "Git & Version Control: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of git & version control.",
+      "resource_type": "course",
+      "category": "Tools",
+      "skills": [
+        "git"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 13.4,
+      "rating": 4.0,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "tooling",
+        "workflow",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0007",
+      "title": "Git & Version Control in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind git & version control.",
+      "resource_type": "video",
+      "category": "Tools",
+      "skills": [
+        "git"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 1.7,
+      "rating": 4.1,
+      "source": "freeCodeCamp",
+      "project_based": false,
+      "tags": [
+        "tooling",
+        "workflow",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0008",
+      "title": "A Practical Guide to Git & Version Control",
+      "description": "A written guide explaining git & version control with worked examples.",
+      "resource_type": "article",
+      "category": "Tools",
+      "skills": [
+        "git"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 1.0,
+      "rating": 4.1,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "tooling",
+        "workflow",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0009",
+      "title": "Git & Version Control Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of git & version control.",
+      "resource_type": "quiz",
+      "category": "Tools",
+      "skills": [
+        "git"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 0.3,
+      "rating": 4.7,
+      "source": "MIT OpenCourseWare",
+      "project_based": false,
+      "tags": [
+        "tooling",
+        "workflow",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0010",
+      "title": "Git & Version Control Reference Documentation",
+      "description": "Official reference material for git & version control APIs and usage patterns.",
+      "resource_type": "documentation",
+      "category": "Tools",
+      "skills": [
+        "git"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 3.4,
+      "rating": 4.6,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "tooling",
+        "workflow",
+        "documentation"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0011",
+      "title": "SQL: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of sql.",
+      "resource_type": "course",
+      "category": "Programming",
+      "skills": [
+        "sql"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 19.7,
+      "rating": 4.2,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0012",
+      "title": "SQL Crash Course",
+      "description": "A visual, example-driven crash course on sql.",
+      "resource_type": "video",
+      "category": "Programming",
+      "skills": [
+        "sql"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 2.7,
+      "rating": 4.4,
+      "source": "fast.ai",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0013",
+      "title": "A Practical Guide to SQL",
+      "description": "A written guide explaining sql with worked examples.",
+      "resource_type": "article",
+      "category": "Programming",
+      "skills": [
+        "sql"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 0.9,
+      "rating": 3.8,
+      "source": "Official Docs",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0014",
+      "title": "SQL Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of sql.",
+      "resource_type": "quiz",
+      "category": "Programming",
+      "skills": [
+        "sql"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 0.5,
+      "rating": 4.7,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0015",
+      "title": "SQL Reference Documentation",
+      "description": "Official reference material for sql APIs and usage patterns.",
+      "resource_type": "documentation",
+      "category": "Programming",
+      "skills": [
+        "sql"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 1.8,
+      "rating": 4.5,
+      "source": "fast.ai",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "documentation"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0016",
+      "title": "Advanced SQL: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of advanced sql.",
+      "resource_type": "course",
+      "category": "Programming",
+      "skills": [
+        "sql_advanced"
+      ],
+      "prerequisites": [
+        "sql"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 12.4,
+      "rating": 4.0,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0017",
+      "title": "Advanced SQL in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind advanced sql.",
+      "resource_type": "video",
+      "category": "Programming",
+      "skills": [
+        "sql_advanced"
+      ],
+      "prerequisites": [
+        "sql"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 1.6,
+      "rating": 3.9,
+      "source": "Official Docs",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0018",
+      "title": "A Practical Guide to Advanced SQL",
+      "description": "A written guide explaining advanced sql with worked examples.",
+      "resource_type": "article",
+      "category": "Programming",
+      "skills": [
+        "sql_advanced"
+      ],
+      "prerequisites": [
+        "sql"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.7,
+      "rating": 4.0,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0019",
+      "title": "Advanced SQL Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of advanced sql.",
+      "resource_type": "quiz",
+      "category": "Programming",
+      "skills": [
+        "sql_advanced"
+      ],
+      "prerequisites": [
+        "sql"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.4,
+      "rating": 4.7,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0020",
+      "title": "Advanced SQL Reference Documentation",
+      "description": "Official reference material for advanced sql APIs and usage patterns.",
+      "resource_type": "documentation",
+      "category": "Programming",
+      "skills": [
+        "sql_advanced"
+      ],
+      "prerequisites": [
+        "sql"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 3.5,
+      "rating": 4.7,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "coding",
+        "fundamentals",
+        "documentation"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0021",
+      "title": "NumPy for Practitioners",
+      "description": "A hands-on course that builds numpy skills through guided exercises.",
+      "resource_type": "course",
+      "category": "Data",
+      "skills": [
+        "numpy"
+      ],
+      "prerequisites": [
+        "python"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 6.6,
+      "rating": 4.8,
+      "source": "MIT OpenCourseWare",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0022",
+      "title": "NumPy Crash Course",
+      "description": "A visual, example-driven crash course on numpy.",
+      "resource_type": "video",
+      "category": "Data",
+      "skills": [
+        "numpy"
+      ],
+      "prerequisites": [
+        "python"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 1.4,
+      "rating": 4.3,
+      "source": "Real Python",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0023",
+      "title": "A Practical Guide to NumPy",
+      "description": "A written guide explaining numpy with worked examples.",
+      "resource_type": "article",
+      "category": "Data",
+      "skills": [
+        "numpy"
+      ],
+      "prerequisites": [
+        "python"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.6,
+      "rating": 4.0,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0024",
+      "title": "NumPy Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of numpy.",
+      "resource_type": "quiz",
+      "category": "Data",
+      "skills": [
+        "numpy"
+      ],
+      "prerequisites": [
+        "python"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.4,
+      "rating": 4.2,
+      "source": "MIT OpenCourseWare",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0025",
+      "title": "NumPy Reference Documentation",
+      "description": "Official reference material for numpy APIs and usage patterns.",
+      "resource_type": "documentation",
+      "category": "Data",
+      "skills": [
+        "numpy"
+      ],
+      "prerequisites": [
+        "python"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 2.1,
+      "rating": 4.9,
+      "source": "freeCodeCamp",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "documentation"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0026",
+      "title": "Pandas for Practitioners",
+      "description": "A hands-on course that builds pandas skills through guided exercises.",
+      "resource_type": "course",
+      "category": "Data",
+      "skills": [
+        "pandas"
+      ],
+      "prerequisites": [
+        "numpy"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 6.8,
+      "rating": 3.8,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0027",
+      "title": "Pandas in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind pandas.",
+      "resource_type": "video",
+      "category": "Data",
+      "skills": [
+        "pandas"
+      ],
+      "prerequisites": [
+        "numpy"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 1.6,
+      "rating": 4.7,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0028",
+      "title": "A Practical Guide to Pandas",
+      "description": "A written guide explaining pandas with worked examples.",
+      "resource_type": "article",
+      "category": "Data",
+      "skills": [
+        "pandas"
+      ],
+      "prerequisites": [
+        "numpy"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.7,
+      "rating": 4.4,
+      "source": "Real Python",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0029",
+      "title": "Pandas Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of pandas.",
+      "resource_type": "quiz",
+      "category": "Data",
+      "skills": [
+        "pandas"
+      ],
+      "prerequisites": [
+        "numpy"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.5,
+      "rating": 4.7,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0030",
+      "title": "Pandas Reference Documentation",
+      "description": "Official reference material for pandas APIs and usage patterns.",
+      "resource_type": "documentation",
+      "category": "Data",
+      "skills": [
+        "pandas"
+      ],
+      "prerequisites": [
+        "numpy"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 3.0,
+      "rating": 4.3,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "documentation"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0031",
+      "title": "Data Cleaning for Practitioners",
+      "description": "A hands-on course that builds data cleaning skills through guided exercises.",
+      "resource_type": "course",
+      "category": "Data",
+      "skills": [
+        "data_cleaning"
+      ],
+      "prerequisites": [
+        "pandas"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 7.0,
+      "rating": 4.2,
+      "source": "Real Python",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0032",
+      "title": "Data Cleaning in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind data cleaning.",
+      "resource_type": "video",
+      "category": "Data",
+      "skills": [
+        "data_cleaning"
+      ],
+      "prerequisites": [
+        "pandas"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 2.0,
+      "rating": 4.8,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0033",
+      "title": "A Practical Guide to Data Cleaning",
+      "description": "A written guide explaining data cleaning with worked examples.",
+      "resource_type": "article",
+      "category": "Data",
+      "skills": [
+        "data_cleaning"
+      ],
+      "prerequisites": [
+        "pandas"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.8,
+      "rating": 3.8,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0034",
+      "title": "Data Cleaning Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of data cleaning.",
+      "resource_type": "quiz",
+      "category": "Data",
+      "skills": [
+        "data_cleaning"
+      ],
+      "prerequisites": [
+        "pandas"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.3,
+      "rating": 4.6,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0035",
+      "title": "Data Cleaning Reference Documentation",
+      "description": "Official reference material for data cleaning APIs and usage patterns.",
+      "resource_type": "documentation",
+      "category": "Data",
+      "skills": [
+        "data_cleaning"
+      ],
+      "prerequisites": [
+        "pandas"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 2.8,
+      "rating": 4.3,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "documentation"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0036",
+      "title": "Data Visualization for Practitioners",
+      "description": "A hands-on course that builds data visualization skills through guided exercises.",
+      "resource_type": "course",
+      "category": "Data",
+      "skills": [
+        "data_visualization"
+      ],
+      "prerequisites": [
+        "pandas"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 13.9,
+      "rating": 4.7,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0037",
+      "title": "Data Visualization in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind data visualization.",
+      "resource_type": "video",
+      "category": "Data",
+      "skills": [
+        "data_visualization"
+      ],
+      "prerequisites": [
+        "pandas"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 1.1,
+      "rating": 4.8,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0038",
+      "title": "A Practical Guide to Data Visualization",
+      "description": "A written guide explaining data visualization with worked examples.",
+      "resource_type": "article",
+      "category": "Data",
+      "skills": [
+        "data_visualization"
+      ],
+      "prerequisites": [
+        "pandas"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.9,
+      "rating": 4.7,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0039",
+      "title": "Data Visualization Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of data visualization.",
+      "resource_type": "quiz",
+      "category": "Data",
+      "skills": [
+        "data_visualization"
+      ],
+      "prerequisites": [
+        "pandas"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.3,
+      "rating": 4.3,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0040",
+      "title": "Data Visualization Reference Documentation",
+      "description": "Official reference material for data visualization APIs and usage patterns.",
+      "resource_type": "documentation",
+      "category": "Data",
+      "skills": [
+        "data_visualization"
+      ],
+      "prerequisites": [
+        "pandas"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 1.8,
+      "rating": 4.7,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "documentation"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0041",
+      "title": "Statistics: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of statistics.",
+      "resource_type": "course",
+      "category": "Math",
+      "skills": [
+        "statistics"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 19.1,
+      "rating": 4.6,
+      "source": "Official Docs",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0042",
+      "title": "Statistics Crash Course",
+      "description": "A visual, example-driven crash course on statistics.",
+      "resource_type": "video",
+      "category": "Math",
+      "skills": [
+        "statistics"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 1.8,
+      "rating": 4.5,
+      "source": "fast.ai",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0043",
+      "title": "Statistics: Concepts and Intuition",
+      "description": "An article building intuition for statistics before diving into code.",
+      "resource_type": "article",
+      "category": "Math",
+      "skills": [
+        "statistics"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 0.9,
+      "rating": 4.2,
+      "source": "Official Docs",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0044",
+      "title": "Statistics Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of statistics.",
+      "resource_type": "quiz",
+      "category": "Math",
+      "skills": [
+        "statistics"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 0.3,
+      "rating": 3.7,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0045",
+      "title": "Statistics Reference Documentation",
+      "description": "Official reference material for statistics APIs and usage patterns.",
+      "resource_type": "documentation",
+      "category": "Math",
+      "skills": [
+        "statistics"
+      ],
+      "prerequisites": [],
+      "difficulty": "beginner",
+      "duration_hours": 2.8,
+      "rating": 3.7,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "documentation"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0046",
+      "title": "Probability: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of probability.",
+      "resource_type": "course",
+      "category": "Math",
+      "skills": [
+        "probability"
+      ],
+      "prerequisites": [
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 8.8,
+      "rating": 3.7,
+      "source": "fast.ai",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0047",
+      "title": "Probability in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind probability.",
+      "resource_type": "video",
+      "category": "Math",
+      "skills": [
+        "probability"
+      ],
+      "prerequisites": [
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 1.5,
+      "rating": 4.0,
+      "source": "Real Python",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0048",
+      "title": "A Practical Guide to Probability",
+      "description": "A written guide explaining probability with worked examples.",
+      "resource_type": "article",
+      "category": "Math",
+      "skills": [
+        "probability"
+      ],
+      "prerequisites": [
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.8,
+      "rating": 4.6,
+      "source": "MIT OpenCourseWare",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0049",
+      "title": "Probability Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of probability.",
+      "resource_type": "quiz",
+      "category": "Math",
+      "skills": [
+        "probability"
+      ],
+      "prerequisites": [
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.3,
+      "rating": 4.3,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0050",
+      "title": "Probability Reference Documentation",
+      "description": "Official reference material for probability APIs and usage patterns.",
+      "resource_type": "documentation",
+      "category": "Math",
+      "skills": [
+        "probability"
+      ],
+      "prerequisites": [
+        "statistics"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 1.3,
+      "rating": 4.5,
+      "source": "fast.ai",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "documentation"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0051",
+      "title": "Linear Algebra for Practitioners",
+      "description": "A hands-on course that builds linear algebra skills through guided exercises.",
+      "resource_type": "course",
+      "category": "Math",
+      "skills": [
+        "linear_algebra"
+      ],
+      "prerequisites": [],
+      "difficulty": "intermediate",
+      "duration_hours": 9.7,
+      "rating": 4.7,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0052",
+      "title": "Linear Algebra in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind linear algebra.",
+      "resource_type": "video",
+      "category": "Math",
+      "skills": [
+        "linear_algebra"
+      ],
+      "prerequisites": [],
+      "difficulty": "intermediate",
+      "duration_hours": 1.1,
+      "rating": 4.6,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0053",
+      "title": "A Practical Guide to Linear Algebra",
+      "description": "A written guide explaining linear algebra with worked examples.",
+      "resource_type": "article",
+      "category": "Math",
+      "skills": [
+        "linear_algebra"
+      ],
+      "prerequisites": [],
+      "difficulty": "intermediate",
+      "duration_hours": 0.6,
+      "rating": 4.3,
+      "source": "freeCodeCamp",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0054",
+      "title": "Linear Algebra Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of linear algebra.",
+      "resource_type": "quiz",
+      "category": "Math",
+      "skills": [
+        "linear_algebra"
+      ],
+      "prerequisites": [],
+      "difficulty": "intermediate",
+      "duration_hours": 0.3,
+      "rating": 4.3,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0055",
+      "title": "Applied Project: Linear Algebra",
+      "description": "A project-based exercise that applies linear algebra to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "Math",
+      "skills": [
+        "linear_algebra"
+      ],
+      "prerequisites": [],
+      "difficulty": "intermediate",
+      "duration_hours": 10.5,
+      "rating": 4.7,
+      "source": "YouTube",
+      "project_based": true,
+      "tags": [
+        "math",
+        "theory",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0056",
+      "title": "Calculus: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of calculus.",
+      "resource_type": "course",
+      "category": "Math",
+      "skills": [
+        "calculus"
+      ],
+      "prerequisites": [
+        "linear_algebra"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 15.8,
+      "rating": 4.3,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0057",
+      "title": "Calculus in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind calculus.",
+      "resource_type": "video",
+      "category": "Math",
+      "skills": [
+        "calculus"
+      ],
+      "prerequisites": [
+        "linear_algebra"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 1.9,
+      "rating": 4.7,
+      "source": "freeCodeCamp",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0058",
+      "title": "Calculus: Concepts and Intuition",
+      "description": "An article building intuition for calculus before diving into code.",
+      "resource_type": "article",
+      "category": "Math",
+      "skills": [
+        "calculus"
+      ],
+      "prerequisites": [
+        "linear_algebra"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.7,
+      "rating": 4.0,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0059",
+      "title": "Calculus Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of calculus.",
+      "resource_type": "quiz",
+      "category": "Math",
+      "skills": [
+        "calculus"
+      ],
+      "prerequisites": [
+        "linear_algebra"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.3,
+      "rating": 3.7,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "math",
+        "theory",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0060",
+      "title": "Applied Project: Calculus",
+      "description": "A project-based exercise that applies calculus to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "Math",
+      "skills": [
+        "calculus"
+      ],
+      "prerequisites": [
+        "linear_algebra"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 11.4,
+      "rating": 4.6,
+      "source": "Kaggle Learn",
+      "project_based": true,
+      "tags": [
+        "math",
+        "theory",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0061",
+      "title": "A/B Testing for Practitioners",
+      "description": "A hands-on course that builds a/b testing skills through guided exercises.",
+      "resource_type": "course",
+      "category": "Data",
+      "skills": [
+        "ab_testing"
+      ],
+      "prerequisites": [
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 12.3,
+      "rating": 4.6,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0062",
+      "title": "A/B Testing Crash Course",
+      "description": "A visual, example-driven crash course on a/b testing.",
+      "resource_type": "video",
+      "category": "Data",
+      "skills": [
+        "ab_testing"
+      ],
+      "prerequisites": [
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 1.3,
+      "rating": 4.1,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0063",
+      "title": "A Practical Guide to A/B Testing",
+      "description": "A written guide explaining a/b testing with worked examples.",
+      "resource_type": "article",
+      "category": "Data",
+      "skills": [
+        "ab_testing"
+      ],
+      "prerequisites": [
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.9,
+      "rating": 3.8,
+      "source": "MIT OpenCourseWare",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0064",
+      "title": "A/B Testing Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of a/b testing.",
+      "resource_type": "quiz",
+      "category": "Data",
+      "skills": [
+        "ab_testing"
+      ],
+      "prerequisites": [
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.4,
+      "rating": 4.7,
+      "source": "freeCodeCamp",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0065",
+      "title": "Applied Project: A/B Testing",
+      "description": "A project-based exercise that applies a/b testing to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "Data",
+      "skills": [
+        "ab_testing"
+      ],
+      "prerequisites": [
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 11.7,
+      "rating": 3.8,
+      "source": "freeCodeCamp",
+      "project_based": true,
+      "tags": [
+        "data",
+        "wrangling",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0066",
+      "title": "Data Storytelling: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of data storytelling.",
+      "resource_type": "course",
+      "category": "Data",
+      "skills": [
+        "data_storytelling"
+      ],
+      "prerequisites": [
+        "data_visualization"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 15.1,
+      "rating": 4.5,
+      "source": "Official Docs",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0067",
+      "title": "Data Storytelling Crash Course",
+      "description": "A visual, example-driven crash course on data storytelling.",
+      "resource_type": "video",
+      "category": "Data",
+      "skills": [
+        "data_storytelling"
+      ],
+      "prerequisites": [
+        "data_visualization"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 1.2,
+      "rating": 4.8,
+      "source": "Official Docs",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0068",
+      "title": "A Practical Guide to Data Storytelling",
+      "description": "A written guide explaining data storytelling with worked examples.",
+      "resource_type": "article",
+      "category": "Data",
+      "skills": [
+        "data_storytelling"
+      ],
+      "prerequisites": [
+        "data_visualization"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.8,
+      "rating": 4.2,
+      "source": "MIT OpenCourseWare",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0069",
+      "title": "Data Storytelling Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of data storytelling.",
+      "resource_type": "quiz",
+      "category": "Data",
+      "skills": [
+        "data_storytelling"
+      ],
+      "prerequisites": [
+        "data_visualization"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.5,
+      "rating": 3.9,
+      "source": "fast.ai",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0070",
+      "title": "Data Storytelling Reference Documentation",
+      "description": "Official reference material for data storytelling APIs and usage patterns.",
+      "resource_type": "documentation",
+      "category": "Data",
+      "skills": [
+        "data_storytelling"
+      ],
+      "prerequisites": [
+        "data_visualization"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 1.8,
+      "rating": 3.9,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "data",
+        "wrangling",
+        "documentation"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0071",
+      "title": "Machine Learning Fundamentals for Practitioners",
+      "description": "A hands-on course that builds machine learning fundamentals skills through guided exercises.",
+      "resource_type": "course",
+      "category": "ML",
+      "skills": [
+        "machine_learning_fundamentals"
+      ],
+      "prerequisites": [
+        "statistics",
+        "pandas"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 8.8,
+      "rating": 4.6,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0072",
+      "title": "Machine Learning Fundamentals in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind machine learning fundamentals.",
+      "resource_type": "video",
+      "category": "ML",
+      "skills": [
+        "machine_learning_fundamentals"
+      ],
+      "prerequisites": [
+        "statistics",
+        "pandas"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 1.5,
+      "rating": 4.9,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0073",
+      "title": "A Practical Guide to Machine Learning Fundamentals",
+      "description": "A written guide explaining machine learning fundamentals with worked examples.",
+      "resource_type": "article",
+      "category": "ML",
+      "skills": [
+        "machine_learning_fundamentals"
+      ],
+      "prerequisites": [
+        "statistics",
+        "pandas"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.8,
+      "rating": 4.3,
+      "source": "freeCodeCamp",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0074",
+      "title": "Machine Learning Fundamentals Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of machine learning fundamentals.",
+      "resource_type": "quiz",
+      "category": "ML",
+      "skills": [
+        "machine_learning_fundamentals"
+      ],
+      "prerequisites": [
+        "statistics",
+        "pandas"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.5,
+      "rating": 4.8,
+      "source": "fast.ai",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0075",
+      "title": "Applied Project: Machine Learning Fundamentals",
+      "description": "A project-based exercise that applies machine learning fundamentals to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "ML",
+      "skills": [
+        "machine_learning_fundamentals"
+      ],
+      "prerequisites": [
+        "statistics",
+        "pandas"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 5.3,
+      "rating": 4.7,
+      "source": "Kaggle Learn",
+      "project_based": true,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0076",
+      "title": "Regression: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of regression.",
+      "resource_type": "course",
+      "category": "ML",
+      "skills": [
+        "regression"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 16.0,
+      "rating": 4.4,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0077",
+      "title": "Regression in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind regression.",
+      "resource_type": "video",
+      "category": "ML",
+      "skills": [
+        "regression"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 1.3,
+      "rating": 4.8,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0078",
+      "title": "A Practical Guide to Regression",
+      "description": "A written guide explaining regression with worked examples.",
+      "resource_type": "article",
+      "category": "ML",
+      "skills": [
+        "regression"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.6,
+      "rating": 4.4,
+      "source": "fast.ai",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0079",
+      "title": "Regression Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of regression.",
+      "resource_type": "quiz",
+      "category": "ML",
+      "skills": [
+        "regression"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.4,
+      "rating": 4.7,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0080",
+      "title": "Applied Project: Regression",
+      "description": "A project-based exercise that applies regression to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "ML",
+      "skills": [
+        "regression"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 6.0,
+      "rating": 4.8,
+      "source": "Coursera",
+      "project_based": true,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0081",
+      "title": "Classification: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of classification.",
+      "resource_type": "course",
+      "category": "ML",
+      "skills": [
+        "classification"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 15.6,
+      "rating": 4.7,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0082",
+      "title": "Classification in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind classification.",
+      "resource_type": "video",
+      "category": "ML",
+      "skills": [
+        "classification"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 1.3,
+      "rating": 3.9,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0083",
+      "title": "A Practical Guide to Classification",
+      "description": "A written guide explaining classification with worked examples.",
+      "resource_type": "article",
+      "category": "ML",
+      "skills": [
+        "classification"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.9,
+      "rating": 4.4,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0084",
+      "title": "Classification Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of classification.",
+      "resource_type": "quiz",
+      "category": "ML",
+      "skills": [
+        "classification"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.3,
+      "rating": 4.8,
+      "source": "freeCodeCamp",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0085",
+      "title": "Applied Project: Classification",
+      "description": "A project-based exercise that applies classification to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "ML",
+      "skills": [
+        "classification"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 10.7,
+      "rating": 4.4,
+      "source": "freeCodeCamp",
+      "project_based": true,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0086",
+      "title": "Clustering for Practitioners",
+      "description": "A hands-on course that builds clustering skills through guided exercises.",
+      "resource_type": "course",
+      "category": "ML",
+      "skills": [
+        "clustering"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 7.1,
+      "rating": 4.1,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0087",
+      "title": "Clustering Crash Course",
+      "description": "A visual, example-driven crash course on clustering.",
+      "resource_type": "video",
+      "category": "ML",
+      "skills": [
+        "clustering"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 1.4,
+      "rating": 4.0,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0088",
+      "title": "Clustering: Concepts and Intuition",
+      "description": "An article building intuition for clustering before diving into code.",
+      "resource_type": "article",
+      "category": "ML",
+      "skills": [
+        "clustering"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.9,
+      "rating": 4.8,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0089",
+      "title": "Clustering Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of clustering.",
+      "resource_type": "quiz",
+      "category": "ML",
+      "skills": [
+        "clustering"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.5,
+      "rating": 4.0,
+      "source": "freeCodeCamp",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0090",
+      "title": "Applied Project: Clustering",
+      "description": "A project-based exercise that applies clustering to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "ML",
+      "skills": [
+        "clustering"
+      ],
+      "prerequisites": [
+        "machine_learning_fundamentals"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 11.1,
+      "rating": 3.7,
+      "source": "fast.ai",
+      "project_based": true,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0091",
+      "title": "Feature Engineering for Practitioners",
+      "description": "A hands-on course that builds feature engineering skills through guided exercises.",
+      "resource_type": "course",
+      "category": "ML",
+      "skills": [
+        "feature_engineering"
+      ],
+      "prerequisites": [
+        "pandas",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 13.2,
+      "rating": 4.7,
+      "source": "Official Docs",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0092",
+      "title": "Feature Engineering Crash Course",
+      "description": "A visual, example-driven crash course on feature engineering.",
+      "resource_type": "video",
+      "category": "ML",
+      "skills": [
+        "feature_engineering"
+      ],
+      "prerequisites": [
+        "pandas",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 1.3,
+      "rating": 4.5,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0093",
+      "title": "A Practical Guide to Feature Engineering",
+      "description": "A written guide explaining feature engineering with worked examples.",
+      "resource_type": "article",
+      "category": "ML",
+      "skills": [
+        "feature_engineering"
+      ],
+      "prerequisites": [
+        "pandas",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.9,
+      "rating": 4.0,
+      "source": "Real Python",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0094",
+      "title": "Feature Engineering Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of feature engineering.",
+      "resource_type": "quiz",
+      "category": "ML",
+      "skills": [
+        "feature_engineering"
+      ],
+      "prerequisites": [
+        "pandas",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.3,
+      "rating": 4.7,
+      "source": "Official Docs",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0095",
+      "title": "Applied Project: Feature Engineering",
+      "description": "A project-based exercise that applies feature engineering to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "ML",
+      "skills": [
+        "feature_engineering"
+      ],
+      "prerequisites": [
+        "pandas",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 4.2,
+      "rating": 3.9,
+      "source": "fast.ai",
+      "project_based": true,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0096",
+      "title": "Model Evaluation for Practitioners",
+      "description": "A hands-on course that builds model evaluation skills through guided exercises.",
+      "resource_type": "course",
+      "category": "ML",
+      "skills": [
+        "model_evaluation"
+      ],
+      "prerequisites": [
+        "regression",
+        "classification"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 13.8,
+      "rating": 4.9,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0097",
+      "title": "Model Evaluation Crash Course",
+      "description": "A visual, example-driven crash course on model evaluation.",
+      "resource_type": "video",
+      "category": "ML",
+      "skills": [
+        "model_evaluation"
+      ],
+      "prerequisites": [
+        "regression",
+        "classification"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 2.3,
+      "rating": 4.2,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0098",
+      "title": "Model Evaluation: Concepts and Intuition",
+      "description": "An article building intuition for model evaluation before diving into code.",
+      "resource_type": "article",
+      "category": "ML",
+      "skills": [
+        "model_evaluation"
+      ],
+      "prerequisites": [
+        "regression",
+        "classification"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 1.0,
+      "rating": 3.8,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0099",
+      "title": "Model Evaluation Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of model evaluation.",
+      "resource_type": "quiz",
+      "category": "ML",
+      "skills": [
+        "model_evaluation"
+      ],
+      "prerequisites": [
+        "regression",
+        "classification"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.4,
+      "rating": 4.9,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0100",
+      "title": "Applied Project: Model Evaluation",
+      "description": "A project-based exercise that applies model evaluation to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "ML",
+      "skills": [
+        "model_evaluation"
+      ],
+      "prerequisites": [
+        "regression",
+        "classification"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 8.8,
+      "rating": 4.1,
+      "source": "fast.ai",
+      "project_based": true,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0101",
+      "title": "Ensemble Learning for Practitioners",
+      "description": "A hands-on course that builds ensemble learning skills through guided exercises.",
+      "resource_type": "course",
+      "category": "ML",
+      "skills": [
+        "ensemble_learning"
+      ],
+      "prerequisites": [
+        "model_evaluation"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 11.5,
+      "rating": 4.3,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0102",
+      "title": "Ensemble Learning in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind ensemble learning.",
+      "resource_type": "video",
+      "category": "ML",
+      "skills": [
+        "ensemble_learning"
+      ],
+      "prerequisites": [
+        "model_evaluation"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 1.3,
+      "rating": 4.6,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0103",
+      "title": "A Practical Guide to Ensemble Learning",
+      "description": "A written guide explaining ensemble learning with worked examples.",
+      "resource_type": "article",
+      "category": "ML",
+      "skills": [
+        "ensemble_learning"
+      ],
+      "prerequisites": [
+        "model_evaluation"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.7,
+      "rating": 3.8,
+      "source": "fast.ai",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0104",
+      "title": "Ensemble Learning Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of ensemble learning.",
+      "resource_type": "quiz",
+      "category": "ML",
+      "skills": [
+        "ensemble_learning"
+      ],
+      "prerequisites": [
+        "model_evaluation"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.4,
+      "rating": 3.8,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0105",
+      "title": "Applied Project: Ensemble Learning",
+      "description": "A project-based exercise that applies ensemble learning to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "ML",
+      "skills": [
+        "ensemble_learning"
+      ],
+      "prerequisites": [
+        "model_evaluation"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 9.3,
+      "rating": 4.1,
+      "source": "Kaggle Learn",
+      "project_based": true,
+      "tags": [
+        "machine-learning",
+        "modeling",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0106",
+      "title": "Neural Networks: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of neural networks.",
+      "resource_type": "course",
+      "category": "Deep Learning",
+      "skills": [
+        "neural_networks"
+      ],
+      "prerequisites": [
+        "model_evaluation",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 10.3,
+      "rating": 4.5,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0107",
+      "title": "Neural Networks in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind neural networks.",
+      "resource_type": "video",
+      "category": "Deep Learning",
+      "skills": [
+        "neural_networks"
+      ],
+      "prerequisites": [
+        "model_evaluation",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 1.6,
+      "rating": 4.1,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0108",
+      "title": "A Practical Guide to Neural Networks",
+      "description": "A written guide explaining neural networks with worked examples.",
+      "resource_type": "article",
+      "category": "Deep Learning",
+      "skills": [
+        "neural_networks"
+      ],
+      "prerequisites": [
+        "model_evaluation",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.7,
+      "rating": 4.0,
+      "source": "MIT OpenCourseWare",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0109",
+      "title": "Neural Networks Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of neural networks.",
+      "resource_type": "quiz",
+      "category": "Deep Learning",
+      "skills": [
+        "neural_networks"
+      ],
+      "prerequisites": [
+        "model_evaluation",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.4,
+      "rating": 4.2,
+      "source": "Official Docs",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0110",
+      "title": "Applied Project: Neural Networks",
+      "description": "A project-based exercise that applies neural networks to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "Deep Learning",
+      "skills": [
+        "neural_networks"
+      ],
+      "prerequisites": [
+        "model_evaluation",
+        "calculus"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 10.3,
+      "rating": 4.9,
+      "source": "freeCodeCamp",
+      "project_based": true,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0111",
+      "title": "Deep Learning: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of deep learning.",
+      "resource_type": "course",
+      "category": "Deep Learning",
+      "skills": [
+        "deep_learning"
+      ],
+      "prerequisites": [
+        "neural_networks"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 11.4,
+      "rating": 4.5,
+      "source": "MIT OpenCourseWare",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0112",
+      "title": "Deep Learning Crash Course",
+      "description": "A visual, example-driven crash course on deep learning.",
+      "resource_type": "video",
+      "category": "Deep Learning",
+      "skills": [
+        "deep_learning"
+      ],
+      "prerequisites": [
+        "neural_networks"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 1.2,
+      "rating": 4.8,
+      "source": "Official Docs",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0113",
+      "title": "Deep Learning: Concepts and Intuition",
+      "description": "An article building intuition for deep learning before diving into code.",
+      "resource_type": "article",
+      "category": "Deep Learning",
+      "skills": [
+        "deep_learning"
+      ],
+      "prerequisites": [
+        "neural_networks"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.6,
+      "rating": 3.9,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0114",
+      "title": "Deep Learning Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of deep learning.",
+      "resource_type": "quiz",
+      "category": "Deep Learning",
+      "skills": [
+        "deep_learning"
+      ],
+      "prerequisites": [
+        "neural_networks"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.3,
+      "rating": 4.3,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0115",
+      "title": "Applied Project: Deep Learning",
+      "description": "A project-based exercise that applies deep learning to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "Deep Learning",
+      "skills": [
+        "deep_learning"
+      ],
+      "prerequisites": [
+        "neural_networks"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 7.3,
+      "rating": 4.5,
+      "source": "Official Docs",
+      "project_based": true,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0116",
+      "title": "Convolutional Networks for Practitioners",
+      "description": "A hands-on course that builds convolutional networks skills through guided exercises.",
+      "resource_type": "course",
+      "category": "Deep Learning",
+      "skills": [
+        "cnn"
+      ],
+      "prerequisites": [
+        "deep_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 10.4,
+      "rating": 4.0,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0117",
+      "title": "Convolutional Networks in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind convolutional networks.",
+      "resource_type": "video",
+      "category": "Deep Learning",
+      "skills": [
+        "cnn"
+      ],
+      "prerequisites": [
+        "deep_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 1.8,
+      "rating": 4.0,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0118",
+      "title": "Convolutional Networks: Concepts and Intuition",
+      "description": "An article building intuition for convolutional networks before diving into code.",
+      "resource_type": "article",
+      "category": "Deep Learning",
+      "skills": [
+        "cnn"
+      ],
+      "prerequisites": [
+        "deep_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.5,
+      "rating": 4.0,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0119",
+      "title": "Convolutional Networks Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of convolutional networks.",
+      "resource_type": "quiz",
+      "category": "Deep Learning",
+      "skills": [
+        "cnn"
+      ],
+      "prerequisites": [
+        "deep_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.3,
+      "rating": 4.3,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0120",
+      "title": "Applied Project: Convolutional Networks",
+      "description": "A project-based exercise that applies convolutional networks to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "Deep Learning",
+      "skills": [
+        "cnn"
+      ],
+      "prerequisites": [
+        "deep_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 11.6,
+      "rating": 4.8,
+      "source": "MIT OpenCourseWare",
+      "project_based": true,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0121",
+      "title": "Recurrent Networks for Practitioners",
+      "description": "A hands-on course that builds recurrent networks skills through guided exercises.",
+      "resource_type": "course",
+      "category": "Deep Learning",
+      "skills": [
+        "rnn"
+      ],
+      "prerequisites": [
+        "deep_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 13.5,
+      "rating": 4.4,
+      "source": "freeCodeCamp",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0122",
+      "title": "Recurrent Networks Crash Course",
+      "description": "A visual, example-driven crash course on recurrent networks.",
+      "resource_type": "video",
+      "category": "Deep Learning",
+      "skills": [
+        "rnn"
+      ],
+      "prerequisites": [
+        "deep_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 1.9,
+      "rating": 4.6,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0123",
+      "title": "Recurrent Networks: Concepts and Intuition",
+      "description": "An article building intuition for recurrent networks before diving into code.",
+      "resource_type": "article",
+      "category": "Deep Learning",
+      "skills": [
+        "rnn"
+      ],
+      "prerequisites": [
+        "deep_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.8,
+      "rating": 4.0,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0124",
+      "title": "Recurrent Networks Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of recurrent networks.",
+      "resource_type": "quiz",
+      "category": "Deep Learning",
+      "skills": [
+        "rnn"
+      ],
+      "prerequisites": [
+        "deep_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.3,
+      "rating": 4.1,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0125",
+      "title": "Applied Project: Recurrent Networks",
+      "description": "A project-based exercise that applies recurrent networks to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "Deep Learning",
+      "skills": [
+        "rnn"
+      ],
+      "prerequisites": [
+        "deep_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 5.1,
+      "rating": 4.0,
+      "source": "freeCodeCamp",
+      "project_based": true,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0126",
+      "title": "Transformers: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of transformers.",
+      "resource_type": "course",
+      "category": "Deep Learning",
+      "skills": [
+        "transformers"
+      ],
+      "prerequisites": [
+        "rnn"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 8.8,
+      "rating": 4.2,
+      "source": "Towards Data Science",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0127",
+      "title": "Transformers Crash Course",
+      "description": "A visual, example-driven crash course on transformers.",
+      "resource_type": "video",
+      "category": "Deep Learning",
+      "skills": [
+        "transformers"
+      ],
+      "prerequisites": [
+        "rnn"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 1.8,
+      "rating": 3.9,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0128",
+      "title": "Transformers: Concepts and Intuition",
+      "description": "An article building intuition for transformers before diving into code.",
+      "resource_type": "article",
+      "category": "Deep Learning",
+      "skills": [
+        "transformers"
+      ],
+      "prerequisites": [
+        "rnn"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 1.0,
+      "rating": 4.4,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0129",
+      "title": "Transformers Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of transformers.",
+      "resource_type": "quiz",
+      "category": "Deep Learning",
+      "skills": [
+        "transformers"
+      ],
+      "prerequisites": [
+        "rnn"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.4,
+      "rating": 4.8,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0130",
+      "title": "Applied Project: Transformers",
+      "description": "A project-based exercise that applies transformers to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "Deep Learning",
+      "skills": [
+        "transformers"
+      ],
+      "prerequisites": [
+        "rnn"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 10.8,
+      "rating": 4.8,
+      "source": "DeepLearning.AI",
+      "project_based": true,
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0131",
+      "title": "Computer Vision: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of computer vision.",
+      "resource_type": "course",
+      "category": "Applied AI",
+      "skills": [
+        "computer_vision"
+      ],
+      "prerequisites": [
+        "cnn"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 13.9,
+      "rating": 4.0,
+      "source": "Real Python",
+      "project_based": false,
+      "tags": [
+        "applied-ai",
+        "capstone",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0132",
+      "title": "Computer Vision in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind computer vision.",
+      "resource_type": "video",
+      "category": "Applied AI",
+      "skills": [
+        "computer_vision"
+      ],
+      "prerequisites": [
+        "cnn"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 1.4,
+      "rating": 4.5,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "applied-ai",
+        "capstone",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0133",
+      "title": "A Practical Guide to Computer Vision",
+      "description": "A written guide explaining computer vision with worked examples.",
+      "resource_type": "article",
+      "category": "Applied AI",
+      "skills": [
+        "computer_vision"
+      ],
+      "prerequisites": [
+        "cnn"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.9,
+      "rating": 4.8,
+      "source": "MIT OpenCourseWare",
+      "project_based": false,
+      "tags": [
+        "applied-ai",
+        "capstone",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0134",
+      "title": "Computer Vision Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of computer vision.",
+      "resource_type": "quiz",
+      "category": "Applied AI",
+      "skills": [
+        "computer_vision"
+      ],
+      "prerequisites": [
+        "cnn"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.5,
+      "rating": 4.4,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "applied-ai",
+        "capstone",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0135",
+      "title": "Applied Project: Computer Vision",
+      "description": "A project-based exercise that applies computer vision to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "Applied AI",
+      "skills": [
+        "computer_vision"
+      ],
+      "prerequisites": [
+        "cnn"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 9.1,
+      "rating": 3.9,
+      "source": "Real Python",
+      "project_based": true,
+      "tags": [
+        "applied-ai",
+        "capstone",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0136",
+      "title": "Natural Language Processing: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of natural language processing.",
+      "resource_type": "course",
+      "category": "Applied AI",
+      "skills": [
+        "nlp"
+      ],
+      "prerequisites": [
+        "transformers"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 8.6,
+      "rating": 4.2,
+      "source": "Official Docs",
+      "project_based": false,
+      "tags": [
+        "applied-ai",
+        "capstone",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0137",
+      "title": "Natural Language Processing Crash Course",
+      "description": "A visual, example-driven crash course on natural language processing.",
+      "resource_type": "video",
+      "category": "Applied AI",
+      "skills": [
+        "nlp"
+      ],
+      "prerequisites": [
+        "transformers"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 1.7,
+      "rating": 4.6,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "applied-ai",
+        "capstone",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0138",
+      "title": "Natural Language Processing: Concepts and Intuition",
+      "description": "An article building intuition for natural language processing before diving into code.",
+      "resource_type": "article",
+      "category": "Applied AI",
+      "skills": [
+        "nlp"
+      ],
+      "prerequisites": [
+        "transformers"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.9,
+      "rating": 4.7,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "applied-ai",
+        "capstone",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0139",
+      "title": "Natural Language Processing Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of natural language processing.",
+      "resource_type": "quiz",
+      "category": "Applied AI",
+      "skills": [
+        "nlp"
+      ],
+      "prerequisites": [
+        "transformers"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.4,
+      "rating": 4.6,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "applied-ai",
+        "capstone",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0140",
+      "title": "Applied Project: Natural Language Processing",
+      "description": "A project-based exercise that applies natural language processing to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "Applied AI",
+      "skills": [
+        "nlp"
+      ],
+      "prerequisites": [
+        "transformers"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 5.8,
+      "rating": 3.8,
+      "source": "Coursera",
+      "project_based": true,
+      "tags": [
+        "applied-ai",
+        "capstone",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0141",
+      "title": "Docker: Complete Course",
+      "description": "A structured, from-scratch course covering the fundamentals and practical use of docker.",
+      "resource_type": "course",
+      "category": "MLOps",
+      "skills": [
+        "docker"
+      ],
+      "prerequisites": [
+        "python"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 19.4,
+      "rating": 3.9,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0142",
+      "title": "Docker in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind docker.",
+      "resource_type": "video",
+      "category": "MLOps",
+      "skills": [
+        "docker"
+      ],
+      "prerequisites": [
+        "python"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 1.2,
+      "rating": 4.3,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0143",
+      "title": "A Practical Guide to Docker",
+      "description": "A written guide explaining docker with worked examples.",
+      "resource_type": "article",
+      "category": "MLOps",
+      "skills": [
+        "docker"
+      ],
+      "prerequisites": [
+        "python"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.7,
+      "rating": 4.0,
+      "source": "fast.ai",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0144",
+      "title": "Docker Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of docker.",
+      "resource_type": "quiz",
+      "category": "MLOps",
+      "skills": [
+        "docker"
+      ],
+      "prerequisites": [
+        "python"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 0.4,
+      "rating": 4.9,
+      "source": "YouTube",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0145",
+      "title": "Docker Reference Documentation",
+      "description": "Official reference material for docker APIs and usage patterns.",
+      "resource_type": "documentation",
+      "category": "MLOps",
+      "skills": [
+        "docker"
+      ],
+      "prerequisites": [
+        "python"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 3.9,
+      "rating": 3.8,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "documentation"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0146",
+      "title": "Model Deployment for Practitioners",
+      "description": "A hands-on course that builds model deployment skills through guided exercises.",
+      "resource_type": "course",
+      "category": "MLOps",
+      "skills": [
+        "model_deployment"
+      ],
+      "prerequisites": [
+        "ensemble_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 11.2,
+      "rating": 4.8,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0147",
+      "title": "Model Deployment Crash Course",
+      "description": "A visual, example-driven crash course on model deployment.",
+      "resource_type": "video",
+      "category": "MLOps",
+      "skills": [
+        "model_deployment"
+      ],
+      "prerequisites": [
+        "ensemble_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 2.9,
+      "rating": 3.9,
+      "source": "MIT OpenCourseWare",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0148",
+      "title": "A Practical Guide to Model Deployment",
+      "description": "A written guide explaining model deployment with worked examples.",
+      "resource_type": "article",
+      "category": "MLOps",
+      "skills": [
+        "model_deployment"
+      ],
+      "prerequisites": [
+        "ensemble_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.6,
+      "rating": 4.6,
+      "source": "MIT OpenCourseWare",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0149",
+      "title": "Model Deployment Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of model deployment.",
+      "resource_type": "quiz",
+      "category": "MLOps",
+      "skills": [
+        "model_deployment"
+      ],
+      "prerequisites": [
+        "ensemble_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.4,
+      "rating": 4.4,
+      "source": "Coursera",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0150",
+      "title": "Applied Project: Model Deployment",
+      "description": "A project-based exercise that applies model deployment to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "MLOps",
+      "skills": [
+        "model_deployment"
+      ],
+      "prerequisites": [
+        "ensemble_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 8.3,
+      "rating": 4.5,
+      "source": "YouTube",
+      "project_based": true,
+      "tags": [
+        "mlops",
+        "production",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0151",
+      "title": "Cloud Computing for Practitioners",
+      "description": "A hands-on course that builds cloud computing skills through guided exercises.",
+      "resource_type": "course",
+      "category": "MLOps",
+      "skills": [
+        "cloud_computing"
+      ],
+      "prerequisites": [
+        "docker"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 6.1,
+      "rating": 4.2,
+      "source": "Real Python",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0152",
+      "title": "Cloud Computing in 60 Minutes",
+      "description": "A fast-paced video walkthrough of the core ideas behind cloud computing.",
+      "resource_type": "video",
+      "category": "MLOps",
+      "skills": [
+        "cloud_computing"
+      ],
+      "prerequisites": [
+        "docker"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 1.4,
+      "rating": 4.1,
+      "source": "Real Python",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0153",
+      "title": "A Practical Guide to Cloud Computing",
+      "description": "A written guide explaining cloud computing with worked examples.",
+      "resource_type": "article",
+      "category": "MLOps",
+      "skills": [
+        "cloud_computing"
+      ],
+      "prerequisites": [
+        "docker"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.7,
+      "rating": 4.6,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0154",
+      "title": "Cloud Computing Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of cloud computing.",
+      "resource_type": "quiz",
+      "category": "MLOps",
+      "skills": [
+        "cloud_computing"
+      ],
+      "prerequisites": [
+        "docker"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.4,
+      "rating": 4.7,
+      "source": "MIT OpenCourseWare",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0155",
+      "title": "Applied Project: Cloud Computing",
+      "description": "A project-based exercise that applies cloud computing to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "MLOps",
+      "skills": [
+        "cloud_computing"
+      ],
+      "prerequisites": [
+        "docker"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 6.6,
+      "rating": 4.0,
+      "source": "YouTube",
+      "project_based": true,
+      "tags": [
+        "mlops",
+        "production",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0156",
+      "title": "CI/CD for Practitioners",
+      "description": "A hands-on course that builds ci/cd skills through guided exercises.",
+      "resource_type": "course",
+      "category": "MLOps",
+      "skills": [
+        "ci_cd"
+      ],
+      "prerequisites": [
+        "docker"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 13.9,
+      "rating": 4.0,
+      "source": "Real Python",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0157",
+      "title": "CI/CD Crash Course",
+      "description": "A visual, example-driven crash course on ci/cd.",
+      "resource_type": "video",
+      "category": "MLOps",
+      "skills": [
+        "ci_cd"
+      ],
+      "prerequisites": [
+        "docker"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 1.7,
+      "rating": 4.3,
+      "source": "fast.ai",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0158",
+      "title": "A Practical Guide to CI/CD",
+      "description": "A written guide explaining ci/cd with worked examples.",
+      "resource_type": "article",
+      "category": "MLOps",
+      "skills": [
+        "ci_cd"
+      ],
+      "prerequisites": [
+        "docker"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.7,
+      "rating": 4.1,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0159",
+      "title": "CI/CD Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of ci/cd.",
+      "resource_type": "quiz",
+      "category": "MLOps",
+      "skills": [
+        "ci_cd"
+      ],
+      "prerequisites": [
+        "docker"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 0.3,
+      "rating": 4.4,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0160",
+      "title": "Applied Project: CI/CD",
+      "description": "A project-based exercise that applies ci/cd to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "MLOps",
+      "skills": [
+        "ci_cd"
+      ],
+      "prerequisites": [
+        "docker"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 8.1,
+      "rating": 3.9,
+      "source": "Official Docs",
+      "project_based": true,
+      "tags": [
+        "mlops",
+        "production",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0161",
+      "title": "MLOps for Practitioners",
+      "description": "A hands-on course that builds mlops skills through guided exercises.",
+      "resource_type": "course",
+      "category": "MLOps",
+      "skills": [
+        "mlops"
+      ],
+      "prerequisites": [
+        "model_deployment",
+        "docker"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 10.4,
+      "rating": 4.6,
+      "source": "Real Python",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "course"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0162",
+      "title": "MLOps Crash Course",
+      "description": "A visual, example-driven crash course on mlops.",
+      "resource_type": "video",
+      "category": "MLOps",
+      "skills": [
+        "mlops"
+      ],
+      "prerequisites": [
+        "model_deployment",
+        "docker"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 1.9,
+      "rating": 3.7,
+      "source": "Kaggle Learn",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "video"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0163",
+      "title": "A Practical Guide to MLOps",
+      "description": "A written guide explaining mlops with worked examples.",
+      "resource_type": "article",
+      "category": "MLOps",
+      "skills": [
+        "mlops"
+      ],
+      "prerequisites": [
+        "model_deployment",
+        "docker"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.7,
+      "rating": 4.0,
+      "source": "MIT OpenCourseWare",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "article"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0164",
+      "title": "MLOps Knowledge Check",
+      "description": "A short quiz to test conceptual understanding of mlops.",
+      "resource_type": "quiz",
+      "category": "MLOps",
+      "skills": [
+        "mlops"
+      ],
+      "prerequisites": [
+        "model_deployment",
+        "docker"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 0.4,
+      "rating": 4.3,
+      "source": "DeepLearning.AI",
+      "project_based": false,
+      "tags": [
+        "mlops",
+        "production",
+        "quiz"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0165",
+      "title": "Applied Project: MLOps",
+      "description": "A project-based exercise that applies mlops to a realistic dataset or problem.",
+      "resource_type": "project",
+      "category": "MLOps",
+      "skills": [
+        "mlops"
+      ],
+      "prerequisites": [
+        "model_deployment",
+        "docker"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 6.8,
+      "rating": 4.2,
+      "source": "Kaggle Learn",
+      "project_based": true,
+      "tags": [
+        "mlops",
+        "production",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0166",
+      "title": "Customer Churn Prediction",
+      "description": "A capstone project combining regression, classification, feature_engineering, model_evaluation into a single deliverable.",
+      "resource_type": "project",
+      "category": "Capstone",
+      "skills": [
+        "regression",
+        "classification",
+        "feature_engineering",
+        "model_evaluation"
+      ],
+      "prerequisites": [
+        "pandas",
+        "machine_learning_fundamentals",
+        "classification",
+        "regression",
+        "statistics"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 10,
+      "rating": 4.4,
+      "source": "LearnPath Projects",
+      "project_based": true,
+      "tags": [
+        "capstone",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0167",
+      "title": "Image Classification App",
+      "description": "A capstone project combining cnn, computer_vision, model_deployment into a single deliverable.",
+      "resource_type": "project",
+      "category": "Capstone",
+      "skills": [
+        "cnn",
+        "computer_vision",
+        "model_deployment"
+      ],
+      "prerequisites": [
+        "ensemble_learning",
+        "cnn",
+        "deep_learning"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 14,
+      "rating": 4.3,
+      "source": "LearnPath Projects",
+      "project_based": true,
+      "tags": [
+        "capstone",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0168",
+      "title": "End-to-End ML Pipeline with CI/CD",
+      "description": "A capstone project combining mlops, docker, ci_cd, model_deployment into a single deliverable.",
+      "resource_type": "project",
+      "category": "Capstone",
+      "skills": [
+        "mlops",
+        "docker",
+        "ci_cd",
+        "model_deployment"
+      ],
+      "prerequisites": [
+        "model_deployment",
+        "python",
+        "ensemble_learning",
+        "docker"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 16,
+      "rating": 4.3,
+      "source": "LearnPath Projects",
+      "project_based": true,
+      "tags": [
+        "capstone",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0169",
+      "title": "Sales Dashboard & Insight Report",
+      "description": "A capstone project combining pandas, data_visualization, data_storytelling into a single deliverable.",
+      "resource_type": "project",
+      "category": "Capstone",
+      "skills": [
+        "pandas",
+        "data_visualization",
+        "data_storytelling"
+      ],
+      "prerequisites": [
+        "pandas",
+        "numpy",
+        "data_visualization"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 6,
+      "rating": 4.3,
+      "source": "LearnPath Projects",
+      "project_based": true,
+      "tags": [
+        "capstone",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0170",
+      "title": "A/B Test Analysis for a Product Launch",
+      "description": "A capstone project combining ab_testing, statistics, data_storytelling into a single deliverable.",
+      "resource_type": "project",
+      "category": "Capstone",
+      "skills": [
+        "ab_testing",
+        "statistics",
+        "data_storytelling"
+      ],
+      "prerequisites": [
+        "statistics",
+        "data_visualization"
+      ],
+      "difficulty": "intermediate",
+      "duration_hours": 5,
+      "rating": 4.6,
+      "source": "LearnPath Projects",
+      "project_based": true,
+      "tags": [
+        "capstone",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0171",
+      "title": "Sentiment Analysis with Transformers",
+      "description": "A capstone project combining nlp, transformers into a single deliverable.",
+      "resource_type": "project",
+      "category": "Capstone",
+      "skills": [
+        "nlp",
+        "transformers"
+      ],
+      "prerequisites": [
+        "rnn",
+        "transformers"
+      ],
+      "difficulty": "advanced",
+      "duration_hours": 12,
+      "rating": 4.7,
+      "source": "LearnPath Projects",
+      "project_based": true,
+      "tags": [
+        "capstone",
+        "project"
+      ],
+      "demo_url": null
+    },
+    {
+      "id": "res_0172",
+      "title": "SQL Analytics Case Study",
+      "description": "A capstone project combining sql, sql_advanced, data_cleaning into a single deliverable.",
+      "resource_type": "project",
+      "category": "Capstone",
+      "skills": [
+        "sql",
+        "sql_advanced",
+        "data_cleaning"
+      ],
+      "prerequisites": [
+        "pandas",
+        "sql"
+      ],
+      "difficulty": "beginner",
+      "duration_hours": 5,
+      "rating": 4.3,
+      "source": "LearnPath Projects",
+      "project_based": true,
+      "tags": [
+        "capstone",
+        "project"
+      ],
+      "demo_url": null
+    }
+  ]
+}
