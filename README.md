@@ -45,7 +45,7 @@ Feedback signals (too hard / too easy / already know / not interested)
       →  shift difficulty bias & project-preference used in future ranking
 ```
 
-## 3. Architecture
+## 3. Architecture 
 
 ```
 LearnPath-AI/
