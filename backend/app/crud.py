@@ -155,5 +155,5 @@ def get_active_roadmap(db: Session, user_id: int, label: str = "Primary Roadmap"
             models.LearningPath.user_id == user_id,
             models.LearningPath.label == label,
             models.LearningPath.is_active == True,  # noqa: E712
-        )
-    ).scalar_one_or_none()
+        ).order_by(models.LearningPath.id.desc())
+    ).scalars().first()

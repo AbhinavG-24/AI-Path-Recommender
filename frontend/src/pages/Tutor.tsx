@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Send, Sparkles } from "lucide-react";
 import { api } from "../lib/api";
 import { useApp } from "../context/AppContext";
-import { PageHeader, Badge } from "../components/ui";
+import { Badge } from "../components/ui";
 
 const SUGGESTIONS = [
   "What should I learn next?",
@@ -24,7 +24,7 @@ export default function Tutor() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      text: "Hi! I'm grounded on your profile, skill graph, and resource catalog — ask me anything about your roadmap.",
+      text: "Hi! I'm grounded on your profile, skill graph, and resource catalog. Ask me anything about your roadmap.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -57,71 +57,123 @@ export default function Tutor() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto px-8 py-10 flex flex-col h-screen">
-      <PageHeader title="AI Tutor" subtitle="Grounded answers — never invents course info." />
+    <div className="max-w-2xl mx-auto px-10 flex flex-col h-screen">
+      {/* ── Header ──────────────────────────────────────────────────── */}
+      <div className="py-10 shrink-0 animate-fade-up border-b border-white/5 mb-6">
+        <h1 className="text-2xl font-display font-bold tracking-tight" style={{ color: "#FFFFFF" }}>AI Tutor</h1>
+        <p className="text-sm mt-1" style={{ color: "var(--color-muted)" }}>
+          Grounded answers based entirely on your profile and catalog.
+        </p>
+      </div>
 
-      <div className="flex-1 overflow-y-auto space-y-4 pb-4">
+      {/* ── Messages ────────────────────────────────────────────────── */}
+      <div className="flex-1 overflow-y-auto space-y-6 pb-6 pr-2 scrollbar-thin">
         {messages.map((m, i) => (
           <div key={i} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
+            {m.role === "assistant" && (
+              <div
+                className="w-8 h-8 rounded-full flex items-center justify-center shrink-0 mr-4 mt-0.5"
+                style={{ background: "rgba(0,229,255,0.1)", border: "1px solid rgba(0,229,255,0.2)" }}
+              >
+                <Sparkles size={14} style={{ color: "#00E5FF" }} />
+              </div>
+            )}
             <div
-              className={`max-w-[85%] rounded-2xl px-4 py-3 text-sm ${
+              className="max-w-[75%] rounded-2xl px-5 py-3.5 text-sm leading-relaxed"
+              style={
                 m.role === "user"
-                  ? "bg-(--color-path) text-white rounded-br-sm"
-                  : "bg-(--color-surface) border border-(--color-border) rounded-bl-sm"
-              }`}
+                  ? {
+                      background: "linear-gradient(135deg, #FF0055 0%, #FF3366 100%)",
+                      color: "white",
+                      borderBottomRightRadius: 4,
+                    }
+                  : {
+                      background: "var(--color-surface)",
+                      color: "var(--color-text)",
+                      borderBottomLeftRadius: 4,
+                    }
+              }
             >
-              <p className="leading-relaxed">{m.text}</p>
+              <p>{m.text}</p>
               {m.groundedOn && m.groundedOn.length > 0 && (
-                <div className="flex flex-wrap gap-1 mt-2 pt-2 border-t border-(--color-border)/50">
+                <div
+                  className="flex flex-wrap gap-1.5 mt-3 pt-3"
+                  style={{ borderTop: "1px solid rgba(255,255,255,0.06)" }}
+                >
                   {m.groundedOn.map((g, gi) => (
-                    <Badge key={gi}>{g}</Badge>
+                    <Badge key={gi} tone="gap">{g}</Badge>
                   ))}
                 </div>
               )}
             </div>
           </div>
         ))}
+
         {loading && (
-          <div className="flex items-center gap-2 text-(--color-muted) text-sm">
-            <Sparkles size={14} className="animate-pulse" /> thinking...
+          <div className="flex items-start">
+            <div
+              className="w-8 h-8 rounded-full flex items-center justify-center shrink-0 mr-4"
+              style={{ background: "rgba(0,229,255,0.1)", border: "1px solid rgba(0,229,255,0.2)" }}
+            >
+              <Sparkles size={14} style={{ color: "#00E5FF" }} className="animate-pulse" />
+            </div>
+            <div
+              className="px-5 py-4 rounded-2xl"
+              style={{ background: "var(--color-surface)", borderBottomLeftRadius: 4 }}
+            >
+              <div className="flex items-center gap-1.5 opacity-50" style={{ color: "#00E5FF" }}>
+                <span className="w-1.5 h-1.5 rounded-full bg-current animate-bounce" style={{ animationDelay: "0ms" }} />
+                <span className="w-1.5 h-1.5 rounded-full bg-current animate-bounce" style={{ animationDelay: "150ms" }} />
+                <span className="w-1.5 h-1.5 rounded-full bg-current animate-bounce" style={{ animationDelay: "300ms" }} />
+              </div>
+            </div>
           </div>
         )}
         <div ref={endRef} />
       </div>
 
-      <div className="flex flex-wrap gap-1.5 mb-3">
-        {SUGGESTIONS.map((s) => (
-          <button
-            key={s}
-            onClick={() => send(s)}
-            className="text-xs px-2.5 py-1.5 rounded-full border border-(--color-border) text-(--color-muted) hover:text-(--color-text) hover:border-(--color-path) transition-colors"
-          >
-            {s}
-          </button>
-        ))}
-      </div>
-
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          send(input);
-        }}
-        className="flex gap-2"
-      >
-        <input
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Ask about your roadmap..."
-          className="flex-1 bg-(--color-surface) border border-(--color-border) rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-(--color-path)"
-        />
-        <button
-          type="submit"
-          disabled={loading}
-          className="bg-(--color-path) text-white rounded-lg px-4 flex items-center justify-center disabled:opacity-40"
+      {/* ── Input ───────────────────────────────────────────────────── */}
+      <div className="shrink-0 pb-10 pt-4 bg-gradient-to-t from-black via-black">
+        <div className="flex flex-wrap gap-1.5 mb-4">
+          {SUGGESTIONS.map((s) => (
+            <button
+              key={s}
+              onClick={() => send(s)}
+              className="pill-btn text-xs"
+            >
+              {s}
+            </button>
+          ))}
+        </div>
+        <form
+          onSubmit={(e) => { e.preventDefault(); send(input); }}
+          className="relative"
         >
-          <Send size={16} />
-        </button>
-      </form>
+          <input
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            placeholder="Message AI Tutor..."
+            className="w-full text-sm px-5 py-4 pr-14 rounded-2xl outline-none transition-all"
+            style={{
+              background: "var(--color-surface)",
+              color: "var(--color-text)",
+              border: "1px solid var(--color-border)",
+            }}
+            onFocus={e => (e.currentTarget.style.borderColor = "rgba(0,229,255,0.4)")}
+            onBlur={e => (e.currentTarget.style.borderColor = "var(--color-border)")}
+          />
+          <button
+            type="submit"
+            disabled={loading || !input.trim()}
+            className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-xl flex items-center justify-center transition-all hover:brightness-110 active:scale-95 disabled:opacity-40"
+            style={{
+              background: "linear-gradient(135deg, #FF0055 0%, #FF3366 100%)",
+            }}
+          >
+            <Send size={15} color="white" />
+          </button>
+        </form>
+      </div>
     </div>
   );
 }

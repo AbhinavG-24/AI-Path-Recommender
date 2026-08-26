@@ -1,94 +1,144 @@
 import { useNavigate } from "react-router-dom";
-import { Compass, GitBranch, Sparkles, Target } from "lucide-react";
-import { Button } from "../components/ui";
+import { GitBranch, Sparkles, Target, ArrowRight } from "lucide-react";
 
 export default function Landing() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-(--color-bg) text-(--color-text) relative overflow-hidden">
-      {/* trail motif */}
-      <svg
-        className="absolute inset-0 w-full h-full opacity-40 pointer-events-none"
-        preserveAspectRatio="none"
-      >
-        <path
-          d="M -50 120 Q 200 60, 400 180 T 900 140 T 1400 220"
-          className="trail-line"
-          strokeWidth={2}
-        />
-        <path
-          d="M -50 500 Q 250 420, 500 540 T 1000 480 T 1500 560"
-          className="trail-line"
-          strokeWidth={2}
-        />
-      </svg>
+    <div
+      className="min-h-screen relative overflow-hidden"
+      style={{ background: "#000000", color: "#FFFFFF" }}
+    >
+      {/* Ambient glow */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(ellipse 55% 45% at 15% 35%, rgba(255,0,85,0.07) 0%, transparent 65%)," +
+            "radial-gradient(ellipse 45% 40% at 85% 65%, rgba(0,229,255,0.05) 0%, transparent 65%)",
+        }}
+      />
 
-      <header className="relative z-10 flex items-center justify-between px-8 py-6 max-w-6xl mx-auto">
-        <div className="flex items-center gap-2">
-          <Compass className="text-(--color-path)" size={22} />
-          <span className="font-display font-semibold text-lg">LearnPath AI</span>
-        </div>
-        <Button variant="outline" onClick={() => navigate("/onboarding")}>
-          Launch demo
-        </Button>
+      {/* ── Nav ─────────────────────────────────────────────────────── */}
+      <header className="relative z-10 flex items-center justify-between px-10 py-7 max-w-6xl mx-auto">
+        <span className="font-display font-bold text-base tracking-tight" style={{ color: "#FFFFFF" }}>
+          LearnPath
+        </span>
+        <button
+          onClick={() => navigate("/onboarding")}
+          className="text-sm font-medium"
+          style={{ color: "#8E8E93" }}
+          onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = "#FFFFFF"}
+          onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = "#8E8E93"}
+        >
+          Launch demo →
+        </button>
       </header>
 
-      <section className="relative z-10 max-w-4xl mx-auto px-8 pt-20 pb-24 text-center">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-(--color-border) text-xs font-mono text-(--color-muted) mb-6">
-          <Sparkles size={12} className="text-(--color-path)" />
-          hybrid recommender · skill graph · adaptive engine
-        </div>
-        <h1 className="font-display text-5xl font-semibold tracking-tight leading-[1.1] mb-6">
+      {/* ── Hero ─────────────────────────────────────────────────────── */}
+      <section className="relative z-10 max-w-3xl mx-auto px-10 pt-20 pb-28 text-center">
+        <h1
+          className="font-display font-bold leading-[1.05] mb-5"
+          style={{ fontSize: "clamp(2.8rem, 6vw, 5rem)", color: "#FFFFFF", letterSpacing: "-0.03em" }}
+        >
           Every skill has a path.
           <br />
-          <span className="text-(--color-path)">We compute yours.</span>
+          <span
+            style={{
+              background: "linear-gradient(90deg, #FF0055 0%, #FF6B35 45%, #00E5FF 100%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}
+          >
+            We compute yours.
+          </span>
         </h1>
-        <p className="text-(--color-muted) text-lg max-w-2xl mx-auto mb-10">
-          Tell LearnPath your goal in plain English. It decomposes it into skills, finds your
-          gaps against a real prerequisite graph, and ranks resources with a hybrid TF-IDF ×
-          BM25 × semantic engine — then adapts every time you take an assessment.
+
+        <p className="text-lg mb-10 leading-relaxed" style={{ color: "#636366", maxWidth: "30rem", margin: "0 auto 2.5rem" }}>
+          Describe your goal. Get a personalized, prerequisite-ordered roadmap with adaptive recommendations.
         </p>
-        <Button onClick={() => navigate("/onboarding")} className="text-base px-6 py-3">
-          Start your roadmap →
-        </Button>
+
+        <button
+          onClick={() => navigate("/onboarding")}
+          className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-base"
+          style={{
+            background: "linear-gradient(135deg, #FF0055 0%, #FF3366 100%)",
+            color: "white",
+            boxShadow: "0 6px 28px rgba(255,0,85,0.35)",
+          }}
+          onMouseEnter={e => (e.currentTarget as HTMLElement).style.boxShadow = "0 8px 36px rgba(255,0,85,0.5)"}
+          onMouseLeave={e => (e.currentTarget as HTMLElement).style.boxShadow = "0 6px 28px rgba(255,0,85,0.35)"}
+        >
+          Start your roadmap <ArrowRight size={15} />
+        </button>
       </section>
 
-      <section className="relative z-10 max-w-5xl mx-auto px-8 pb-24 grid grid-cols-1 md:grid-cols-3 gap-5">
+      {/* ── Feature cards ────────────────────────────────────────────── */}
+      <section className="relative z-10 max-w-5xl mx-auto px-10 pb-28 grid grid-cols-1 md:grid-cols-3 gap-3">
         <FeatureCard
           icon={Target}
-          title="Goal → structured plan"
-          body="Natural language parsing extracts your target role, known skills, hours per week, and deadline — no forms required."
+          color="#FF0055"
+          title="Goal to plan"
+          body="Plain-English input. No forms. Extracts role, skills, hours, and deadline automatically."
         />
         <FeatureCard
           icon={GitBranch}
+          color="#00E5FF"
           title="Prerequisite-aware"
-          body="A NetworkX skill graph topologically orders your roadmap so nothing is scheduled before its prerequisite."
+          body="A skill graph topologically orders your roadmap — nothing is scheduled before its prerequisites."
         />
         <FeatureCard
           icon={Sparkles}
-          title="Explainable & adaptive"
-          body="Every recommendation shows its score breakdown. Every assessment reshapes your skill profile and reranks what's next."
+          color="#00FF66"
+          title="Adaptive scoring"
+          body="Every assessment reshapes your profile and reranks resources in real time."
         />
       </section>
+
+      {/* Decorative rings */}
+      <div className="absolute bottom-8 right-8 opacity-15 pointer-events-none">
+        <svg width="110" height="110" className="-rotate-90">
+          {[
+            { r: 48, color: "#FF0055", pct: 72 },
+            { r: 35, color: "#00FF66", pct: 55 },
+            { r: 22, color: "#00E5FF", pct: 40 },
+          ].map((ring, i) => {
+            const c = 2 * Math.PI * ring.r;
+            return (
+              <g key={i}>
+                <circle cx={55} cy={55} r={ring.r} stroke="rgba(255,255,255,0.06)" strokeWidth={8} fill="none" />
+                <circle
+                  cx={55} cy={55} r={ring.r}
+                  stroke={ring.color} strokeWidth={8} fill="none"
+                  strokeDasharray={`${(ring.pct / 100) * c} ${c}`}
+                  strokeLinecap="round"
+                />
+              </g>
+            );
+          })}
+        </svg>
+      </div>
     </div>
   );
 }
 
 function FeatureCard({
-  icon: Icon,
-  title,
-  body,
+  icon: Icon, title, body, color,
 }: {
   icon: typeof Target;
   title: string;
   body: string;
+  color: string;
 }) {
   return (
-    <div className="rounded-xl border border-(--color-border) bg-(--color-surface) p-6">
-      <Icon className="text-(--color-path) mb-3" size={20} />
-      <h3 className="font-display font-semibold mb-2">{title}</h3>
-      <p className="text-sm text-(--color-muted) leading-relaxed">{body}</p>
+    <div
+      className="rounded-2xl p-6"
+      style={{ background: "#111111" }}
+    >
+      <Icon size={20} style={{ color }} strokeWidth={1.75} className="mb-4" />
+      <h3 className="font-semibold mb-1.5" style={{ color: "#FFFFFF", fontSize: "15px" }}>{title}</h3>
+      <p className="text-sm leading-relaxed" style={{ color: "#636366" }}>{body}</p>
     </div>
   );
 }

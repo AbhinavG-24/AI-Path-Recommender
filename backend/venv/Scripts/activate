@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\Abhinav Garg\Desktop\Programming\Hackethons\HCL\Version-02\LearnPath-AI\backend\venv"
+VIRTUAL_ENV="D:\GITHUB\AI-Path-Recommender\backend\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
