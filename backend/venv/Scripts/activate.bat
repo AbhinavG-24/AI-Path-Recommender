@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=D:\Abhinav Garg\Desktop\Programming\Hackethons\HCL\Version-02\LearnPath-AI\backend\venv
+set VIRTUAL_ENV=D:\GITHUB\AI-Path-Recommender\backend\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

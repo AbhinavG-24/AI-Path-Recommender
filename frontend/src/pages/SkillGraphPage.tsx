@@ -10,12 +10,12 @@ import ReactFlow, {
 import "reactflow/dist/style.css";
 import { api } from "../lib/api";
 import { useApp } from "../context/AppContext";
-import { PageHeader, Spinner, ErrorBanner, Badge, Card } from "../components/ui";
+import { Spinner, ErrorBanner, Badge, Card } from "../components/ui";
 
 const STATUS_COLOR: Record<string, string> = {
-  mastered: "#34d8c0",
-  partial: "#ffb454",
-  missing: "#26314a",
+  mastered: "#00FF66",
+  partial:  "#00E5FF",
+  missing:  "#3A3A3C",
 };
 
 function layout(nodes: any[], edges: any[]) {
@@ -85,20 +85,26 @@ export default function SkillGraphPage() {
     const positioned = layout(graphData.nodes, graphData.edges);
     const rfNodes: Node[] = positioned.map((n) => {
       const status = statusBySkill[n.id];
-      const color = status ? STATUS_COLOR[status] : "#3a4460";
+      const color = status ? STATUS_COLOR[status] : "#3A3A3C";
+      const glowColor =
+        status === "mastered" ? "rgba(0,255,102,0.35)" :
+        status === "partial"  ? "rgba(0,229,255,0.35)" : "none";
       return {
         id: n.id,
         position: { x: n.depth * 210, y: n.indexInDepth * 78 },
-        data: { label: n.name, raw: n },
+        data: { label: n.name.replaceAll("_", " "), raw: n },
         style: {
-          background: "#121927",
-          border: `1.5px solid ${color}`,
-          borderRadius: 10,
-          color: "#edf1f7",
+          background: "#111111",
+          border: `1px solid ${color}`,
+          borderRadius: 8,
+          color: status === "mastered" ? "#00FF66" : status === "partial" ? "#00E5FF" : "#636366",
           fontSize: 12,
-          fontFamily: "IBM Plex Mono, monospace",
+          fontFamily: "Inter, sans-serif",
+          fontWeight: 500,
           padding: "8px 12px",
           width: 170,
+          boxShadow: glowColor !== "none" ? `0 0 12px ${glowColor}` : "none",
+          textTransform: "capitalize",
         },
       };
     });
@@ -107,34 +113,45 @@ export default function SkillGraphPage() {
       source: e.source,
       target: e.target,
       animated: false,
-      style: { stroke: "#26314a", strokeWidth: 1.5 },
-      markerEnd: { type: MarkerType.ArrowClosed, color: "#26314a", width: 14, height: 14 },
+      style: { stroke: "#3A3A3C", strokeWidth: 1 },
+      markerEnd: { type: MarkerType.ArrowClosed, color: "#3A3A3C", width: 14, height: 14 },
     }));
     return { nodes: rfNodes, edges: rfEdges };
   }, [graphData, statusBySkill]);
 
-  if (error) return <div className="p-8"><ErrorBanner message={error} /></div>;
+  if (error) return <div className="p-10"><ErrorBanner message={error} /></div>;
   if (!graphData) return <Spinner />;
 
   return (
-    <div className="px-8 py-10 h-screen flex flex-col">
-      <PageHeader
-        title="Skill Graph"
-        subtitle="The prerequisite graph driving roadmap ordering — not just a picture, the actual scheduling logic."
-      />
-      <div className="flex gap-4 mb-4 text-xs font-mono">
-        <span className="flex items-center gap-1.5">
-          <span className="w-2.5 h-2.5 rounded-full inline-block" style={{ background: STATUS_COLOR.mastered }} /> mastered
-        </span>
-        <span className="flex items-center gap-1.5">
-          <span className="w-2.5 h-2.5 rounded-full inline-block" style={{ background: STATUS_COLOR.partial }} /> partial
-        </span>
-        <span className="flex items-center gap-1.5">
-          <span className="w-2.5 h-2.5 rounded-full inline-block bg-(--color-surface-2)" /> missing / not required
-        </span>
+    <div className="flex flex-col h-screen">
+      {/* ── Header ──────────────────────────────────────────────────── */}
+      <div className="shrink-0 px-8 py-5 flex items-center justify-between" style={{ borderBottom: "1px solid var(--color-border)", background: "var(--color-bg)" }}>
+        <div>
+          <h1 className="font-display font-bold text-xl tracking-tight" style={{ color: "var(--color-text)" }}>
+            Skill Graph
+          </h1>
+          <p className="text-sm mt-0.5" style={{ color: "var(--color-muted)" }}>
+            The prerequisite graph driving roadmap ordering.
+          </p>
+        </div>
+
+        <div className="flex gap-5 text-xs font-mono shrink-0">
+          <span className="flex items-center gap-1.5">
+            <span className="w-2 h-2 rounded-full inline-block" style={{ background: "#00FF66" }} />
+            <span style={{ color: "#00FF66" }}>Mastered</span>
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="w-2 h-2 rounded-full inline-block" style={{ background: "#00E5FF" }} />
+            <span style={{ color: "#00E5FF" }}>Partial</span>
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="w-2 h-2 rounded-full inline-block" style={{ background: "#3A3A3C" }} />
+            <span style={{ color: "var(--color-muted)" }}>Missing</span>
+          </span>
+        </div>
       </div>
 
-      <div className="flex-1 rounded-xl border border-(--color-border) overflow-hidden relative">
+      <div className="flex-1 relative bg-black">
         <ReactFlow
           nodes={nodes}
           edges={edges}
@@ -142,23 +159,23 @@ export default function SkillGraphPage() {
           fitView
           proOptions={{ hideAttribution: true }}
         >
-          <Background color="#1a2335" gap={20} />
+          <Background color="#1C1C1E" gap={24} />
           <Controls />
-          <MiniMap
-            nodeColor={() => "#26314a"}
-            maskColor="rgba(10,14,23,0.8)"
-            style={{ background: "#121927" }}
-          />
         </ReactFlow>
 
         {selected && (
-          <Card className="absolute top-4 right-4 w-72 z-10">
-            <h4 className="font-display font-semibold mb-1">{selected.name}</h4>
-            <Badge>{selected.category}</Badge>
-            <p className="text-sm text-(--color-muted) mt-3 leading-relaxed">
+          <div
+            className="absolute top-6 right-6 w-80 p-6 rounded-2xl z-10 animate-fade-up"
+            style={{ background: "var(--color-surface)", border: "1px solid var(--color-border)", boxShadow: "var(--shadow-card)" }}
+          >
+            <h4 className="font-display font-semibold mb-2 capitalize text-lg" style={{ color: "var(--color-text)" }}>
+              {selected.name.replaceAll("_", " ")}
+            </h4>
+            <Badge tone="path">{selected.category}</Badge>
+            <p className="text-sm mt-4 leading-relaxed" style={{ color: "var(--color-muted)" }}>
               {selected.description}
             </p>
-          </Card>
+          </div>
         )}
       </div>
     </div>

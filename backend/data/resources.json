@@ -3949,10 +3949,10 @@
       ],
       "prerequisites": [
         "pandas",
-        "machine_learning_fundamentals",
         "classification",
         "regression",
-        "statistics"
+        "statistics",
+        "machine_learning_fundamentals"
       ],
       "difficulty": "intermediate",
       "duration_hours": 10,
@@ -3977,9 +3977,9 @@
         "model_deployment"
       ],
       "prerequisites": [
+        "deep_learning",
         "ensemble_learning",
-        "cnn",
-        "deep_learning"
+        "cnn"
       ],
       "difficulty": "advanced",
       "duration_hours": 14,
@@ -4005,9 +4005,9 @@
         "model_deployment"
       ],
       "prerequisites": [
+        "ensemble_learning",
         "model_deployment",
         "python",
-        "ensemble_learning",
         "docker"
       ],
       "difficulty": "advanced",
@@ -4034,8 +4034,8 @@
       ],
       "prerequisites": [
         "pandas",
-        "numpy",
-        "data_visualization"
+        "data_visualization",
+        "numpy"
       ],
       "difficulty": "beginner",
       "duration_hours": 6,
@@ -4060,8 +4060,8 @@
         "data_storytelling"
       ],
       "prerequisites": [
-        "statistics",
-        "data_visualization"
+        "data_visualization",
+        "statistics"
       ],
       "difficulty": "intermediate",
       "duration_hours": 5,
@@ -4085,8 +4085,8 @@
         "transformers"
       ],
       "prerequisites": [
-        "rnn",
-        "transformers"
+        "transformers",
+        "rnn"
       ],
       "difficulty": "advanced",
       "duration_hours": 12,
